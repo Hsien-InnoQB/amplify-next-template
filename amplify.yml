@@ -19,8 +19,3 @@ frontend:
       - .next/cache/**/*
       - .npm/**/*
       - node_modules/**/
-  redirects:
-    - source: "/<path:*>"
-      target: "/app2/<path:*>"
-      status: 302
-      condition: null
